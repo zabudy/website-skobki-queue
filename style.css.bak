@@ -1,0 +1,59 @@
+body {
+    font-family: courier new; /* Рубленый шрифт текста */
+	 background: #EBDCB2; /* Цвет фона */
+    margin: 0; /* Обнуляем отступы браузера */
+   }
+   h1 {
+    font-size: 36px; /* Размер шрифта */
+    font-weight: bold; /* Жирное начертание */
+    margin: 0; /* Убираем отступы */
+    color: #AF4425; /* Цвет текста */
+   }
+   h2 {
+    margin-top: 0; /* Убираем отступ сверху */
+   }
+   #head { /* Верхний блок */
+    background: #662E1C; /* Цвет фона */
+    padding: 10px; /* Поля вокруг */
+   }
+   #menu { /* Левая колонка */
+    float: left; /* Обтекание справа */
+    
+    width: 200px; /* Ширина колонки */
+    padding: 5px; /* Поля вокруг текста */
+    margin: 10px 10px 20px 5px; /* Значения отступов */
+   }
+   
+ 
+   a:link {   color: #662E1C; /* Цвет ссылок */   }
+   a:active{   color: #C9A66B; /* Цвет активной ссылки */   }
+   a:visited{   color: #662E1C; /* Цвет посещенной ссылки */   }
+   #menu a { 
+    display: block; /* Отображать ссылку как блок */
+    padding: 2px; /* Поля вокруг ссылок */
+    margin: 1px; /* Отступы вокруг */
+    font-size: 0.9em; /* Размер текста */
+	background: #C9A66B;
+    text-decoration: none; /* Убираем подчеркивание текста */
+   }
+   #menu a:hover { 
+    background: #C9A66B; /* Цвет фона */
+    border: 1px dashed #634f36; /* Добавление пунктирной рамки */
+    margin: 0; /* Убираем поля */
+   }
+   #content { /* Правая колонка */
+    margin: 10px 5px 20px 225px; /* Значения отступов */
+	background: #C9A66B;
+	color: #AF4425; /* Цвет текста */
+    padding: 5px; /* Поля вокруг текста */
+   
+   }
+   .line {
+    border-bottom: 1px groove #333; /* Линия между ссылками */
+   }
+   #foot { /* Нижний блок */
+    background: #662E1C; /* Цвет фона */
+    padding: 5px; /* Поля вокруг текста */
+    color: #AF4425; /* Цвет текста */
+    clear: both; /* Отменяем обтекание */
+   }
